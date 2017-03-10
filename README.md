@@ -1,0 +1,2 @@
+# LandscapeModeVC
+在Deployment Info里面的Device Orientation 中只勾选Portrait,按照这样的设置，页面则全部为竖屏，不允许横屏，这时在AppDelegate.m文件中写一个是否禁止横屏的方法，在需要横屏的控制器中调用该方法设置允许横屏，离开该控制器时，关闭允许横屏。
